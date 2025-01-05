@@ -1,0 +1,25 @@
+{
+  "name": "sheepy-coin",
+  "version": "1.0.0",
+  "description": "A fun meme coin for the Sheepy Flock.",
+  "scripts": {
+    "generateTypes": "typechain --target ethers-v6 --out-dir typechain-types './abi/*.json'"
+  },
+  "devDependencies": {
+    "@chainlink/env-enc": "^1.0.5",
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.12",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.12",
+    "@openzeppelin/contracts": "^5.1.0",
+    "@typechain/ethers-v6": "^0.5.1",
+    "@typechain/hardhat": "^9.1.0",
+    "@types/mocha": "^10.0.10",
+    "ethers": "^6.13.4",
+    "hardhat": "^2.22.17",
+    "solidity-coverage": "^0.8.14",
+    "ts-node": "^10.9.2",
+    "typechain": "^8.3.2",
+    "typescript": "^5.7.2"
+  }
+}
