@@ -1,2 +1,2 @@
 # coin
-A fun meme coin for Sheepy lovers.
+A fun meme coin for Sheepy Flock.
